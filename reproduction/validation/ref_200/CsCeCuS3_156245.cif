@@ -1,0 +1,57 @@
+# generated using pymatgen
+data_CsCeCuS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.02400000
+_cell_length_b   15.15400000
+_cell_length_c   10.35300000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsCeCuS3
+_chemical_formula_sum   'Cs4 Ce4 Cu4 S12'
+_cell_volume   631.32279269
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Cs+  1.0
+  Ce3+  3.0
+  Cu+  1.0
+  S1.67-  -1.67
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs+  Cs1  1  0.00000000  0.25980000  0.25000000  1.0
+  Cs+  Cs1  1  0.00000000  0.74020000  0.75000000  1.0
+  Cs+  Cs1  1  0.50000000  0.75980000  0.25000000  1.0
+  Cs+  Cs1  1  0.50000000  0.24020000  0.75000000  1.0
+  Ce3+  Ce1  1  0.00000000  0.00000000  0.00000000  1.0
+  Ce3+  Ce1  1  0.00000000  0.00000000  0.50000000  1.0
+  Ce3+  Ce1  1  0.50000000  0.50000000  0.00000000  1.0
+  Ce3+  Ce1  1  0.50000000  0.50000000  0.50000000  1.0
+  Cu+  Cu1  1  0.00000000  0.53450000  0.25000000  1.0
+  Cu+  Cu1  1  0.00000000  0.46550000  0.75000000  1.0
+  Cu+  Cu1  1  0.50000000  0.03450000  0.25000000  1.0
+  Cu+  Cu1  1  0.50000000  0.96550000  0.75000000  1.0
+  S1.67-  S1  1  0.00000000  0.94670000  0.25000000  1.0
+  S1.67-  S1  1  0.00000000  0.05330000  0.75000000  1.0
+  S1.67-  S1  1  0.50000000  0.44670000  0.25000000  1.0
+  S1.67-  S1  1  0.50000000  0.55330000  0.75000000  1.0
+  S1.67-  S2  1  0.00000000  0.38510000  0.94070000  1.0
+  S1.67-  S2  1  0.00000000  0.61490000  0.05930000  1.0
+  S1.67-  S2  1  0.00000000  0.38510000  0.55930000  1.0
+  S1.67-  S2  1  0.00000000  0.61490000  0.44070000  1.0
+  S1.67-  S2  1  0.50000000  0.88510000  0.94070000  1.0
+  S1.67-  S2  1  0.50000000  0.11490000  0.05930000  1.0
+  S1.67-  S2  1  0.50000000  0.88510000  0.55930000  1.0
+  S1.67-  S2  1  0.50000000  0.11490000  0.44070000  1.0

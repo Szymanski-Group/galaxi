@@ -1,0 +1,57 @@
+# generated using pymatgen
+data_CsTmZnTe3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.34710000
+_cell_length_b   16.71200000
+_cell_length_c   11.51570000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CsTmZnTe3
+_chemical_formula_sum   'Cs4 Tm4 Zn4 Te12'
+_cell_volume   836.60103994
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Cs+  1.0
+  Tm3+  3.0
+  Zn2+  2.0
+  Te2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs+  Cs1  1  0.00000000  0.74493000  0.25000000  1.0
+  Cs+  Cs1  1  0.00000000  0.25507000  0.75000000  1.0
+  Cs+  Cs1  1  0.50000000  0.24493000  0.25000000  1.0
+  Cs+  Cs1  1  0.50000000  0.75507000  0.75000000  1.0
+  Tm3+  Tm1  1  0.00000000  0.00000000  0.50000000  1.0
+  Tm3+  Tm1  1  0.00000000  0.00000000  0.00000000  1.0
+  Tm3+  Tm1  1  0.50000000  0.50000000  0.50000000  1.0
+  Tm3+  Tm1  1  0.50000000  0.50000000  0.00000000  1.0
+  Zn2+  Zn1  1  0.00000000  0.46039000  0.25000000  1.0
+  Zn2+  Zn1  1  0.00000000  0.53961000  0.75000000  1.0
+  Zn2+  Zn1  1  0.50000000  0.96039000  0.25000000  1.0
+  Zn2+  Zn1  1  0.50000000  0.03961000  0.75000000  1.0
+  Te2-  Te1  1  0.00000000  0.37837000  0.44548000  1.0
+  Te2-  Te1  1  0.00000000  0.62163000  0.55452000  1.0
+  Te2-  Te1  1  0.00000000  0.37837000  0.05452000  1.0
+  Te2-  Te1  1  0.00000000  0.62163000  0.94548000  1.0
+  Te2-  Te1  1  0.50000000  0.87837000  0.44548000  1.0
+  Te2-  Te1  1  0.50000000  0.12163000  0.55452000  1.0
+  Te2-  Te1  1  0.50000000  0.87837000  0.05452000  1.0
+  Te2-  Te1  1  0.50000000  0.12163000  0.94548000  1.0
+  Te2-  Te2  1  0.00000000  0.05891000  0.25000000  1.0
+  Te2-  Te2  1  0.00000000  0.94109000  0.75000000  1.0
+  Te2-  Te2  1  0.50000000  0.55891000  0.25000000  1.0
+  Te2-  Te2  1  0.50000000  0.44109000  0.75000000  1.0

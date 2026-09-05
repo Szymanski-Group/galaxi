@@ -1,0 +1,56 @@
+# Single representative from COD ID: 1011240
+# generated using pymatgen
+data_Fe2O3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.03811265
+_cell_length_b   5.03811265
+_cell_length_c   6.87779693
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe2O3
+_chemical_formula_sum   'Fe6 O9'
+_cell_volume   151.18744556
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Fe3+  3.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe3+  Fe0  1  0.00000000  0.00000000  0.21000000  1.0
+  Fe3+  Fe1  1  0.00000000  0.00000000  0.79000000  1.0
+  Fe3+  Fe2  1  0.33333333  0.66666667  0.87666667  1.0
+  Fe3+  Fe3  1  0.33333333  0.66666667  0.45666667  1.0
+  Fe3+  Fe4  1  0.66666667  0.33333333  0.54333333  1.0
+  Fe3+  Fe5  1  0.66666667  0.33333333  0.12333333  1.0
+  O2-  O6  1  0.00000000  0.29200000  0.00000000  0.5
+  O2-  O7  1  0.00000000  0.70800000  0.00000000  0.5
+  O2-  O8  1  0.04133333  0.66666667  0.66666667  0.5
+  O2-  O9  1  0.04133333  0.37466667  0.66666667  0.5
+  O2-  O10  1  0.29200000  0.00000000  0.00000000  0.5
+  O2-  O11  1  0.29200000  0.29200000  0.00000000  0.5
+  O2-  O12  1  0.33333333  0.37466667  0.66666667  0.5
+  O2-  O13  1  0.33333333  0.95866667  0.66666667  0.5
+  O2-  O14  1  0.37466667  0.04133333  0.33333333  0.5
+  O2-  O15  1  0.37466667  0.33333333  0.33333333  0.5
+  O2-  O16  1  0.62533333  0.66666667  0.66666667  0.5
+  O2-  O17  1  0.62533333  0.95866667  0.66666667  0.5
+  O2-  O18  1  0.66666667  0.04133333  0.33333333  0.5
+  O2-  O19  1  0.66666667  0.62533333  0.33333333  0.5
+  O2-  O20  1  0.70800000  0.00000000  0.00000000  0.5
+  O2-  O21  1  0.70800000  0.70800000  0.00000000  0.5
+  O2-  O22  1  0.95866667  0.33333333  0.33333333  0.5
+  O2-  O23  1  0.95866667  0.62533333  0.33333333  0.5

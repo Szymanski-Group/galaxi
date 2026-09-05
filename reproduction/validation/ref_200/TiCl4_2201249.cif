@@ -1,0 +1,114 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-03-26 10:30:59 +0300 (Sun, 26 Mar 2023) $
+#$Revision: 282067 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/2/20/12/2201249.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_2201249
+loop_
+_publ_author_name
+'Alice Dawson'
+'Andrew Parkin'
+'Simon Parsons'
+'Colin R. Pulham'
+'Amy L.C. Young'
+_publ_section_title
+;
+Titanium(IV) chloride at 150 K
+;
+_journal_name_full               'Acta Crystallographica, Section E'
+_journal_page_first              i95
+_journal_page_last               i97
+_journal_paper_doi               10.1107/S1600536802016665
+_journal_volume                  58
+_journal_year                    2002
+_chemical_formula_structural     ' Ti Cl4'
+_chemical_formula_sum            'Cl4 Ti'
+_chemical_formula_weight         189.71
+_chemical_melting_point          248
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 102.168(4)
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   9.670(2)
+_cell_length_b                   6.4737(15)
+_cell_length_c                   9.682(2)
+_cell_measurement_temperature    150
+_cell_volume                     592.5(2)
+_database_code_amcsd             0010387
+_diffrn_ambient_temperature      150
+_exptl_crystal_density_diffrn    2.127
+_cod_depositor_comments
+;
+The following automatic conversions were performed:
+'_symmetry_cell_setting' value 'Monoclinic ' changed to 'monoclinic'
+according to '/home/saulius/struct/CIF-dictionaries/cif_core.dic'
+dictionary named 'cif_core.dic' version 2.4.1 from 2010-06-29.
+
+Automatic conversion script
+Id: cif_fix_enum 1527 2010-12-29 10:47:43Z saulius 
+;
+_cod_original_sg_symbol_H-M      'P 21/c'
+_cod_original_formula_sum        ' Cl4 Ti1 '
+_cod_database_code               2201249
+_amcsd_formula_title             TiCl4
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+-x,-y,-z
+-x,y+1/2,-z+1/2
+x,-y+1/2,z+1/2
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_type_symbol
+Ti1 0.25088(3) 0.07670(5) 0.13332(3) 0.0191 Uani 1.0000 Ti
+Cl2 0.18975(6) 0.39226(8) 0.07654(6) 0.0314 Uani 1.0000 Cl
+Cl3 0.07718(5) -0.08326(8) 0.19569(6) 0.0321 Uani 1.0000 Cl
+Cl4 0.30678(6) -0.07972(8) -0.04467(5) 0.0314 Uani 1.0000 Cl
+Cl5 0.43145(5) 0.07485(8) 0.30888(5) 0.0300 Uani 1.0000 Cl
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Ti1 0.0196(2) 0.0173(2) 0.0206(2) 0.00010(10) 0.00459(13) 0.00010(10)
+Cl2 0.0373(3) 0.0204(2) 0.0361(3) 0.00472(17) 0.0068(2) 0.00359(18)
+Cl3 0.0265(3) 0.0351(3) 0.0360(3) -0.00590(18) 0.0091(2) 0.00589(19)
+Cl4 0.0351(3) 0.0325(3) 0.0277(3) 0.00338(18) 0.0089(2) -0.00681(17)
+Cl5 0.0265(3) 0.0319(3) 0.0284(3) 0.00021(16) -0.0015(2) -0.00142(17)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Ti1 Cl2 . . 2.1652(6) yes
+Ti1 Cl3 . . 2.1647(6) yes
+Ti1 Cl4 . . 2.1634(6) yes
+Ti1 Cl5 . . 2.1651(5) yes
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 22615
+2 AMCSD 0010387

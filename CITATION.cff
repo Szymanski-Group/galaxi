@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+title: "GALAXI: Scalable machine learning framework for multiphase identification from powder X-ray diffraction"
+version: "0.1.0"
+authors:
+  - family-names: Tong
+    given-names: Xinyang
+  - family-names: Jin
+    given-names: Ethan
+  - family-names: Xu
+    given-names: Jiahan
+  - family-names: Rao
+    given-names: Aditya
+  - family-names: Jiang
+    given-names: Pengcen
+  - family-names: Szymanski
+    given-names: Nathan J.
+repository-code: "https://github.com/Szymanski-Group/galaxi"
+abstract: |
+  X-ray diffraction (XRD) is the primary tool for identifying crystalline
+  phases after synthesis, but automated identification remains difficult
+  for realistic, multi-phase samples. GALAXI (General Automated Learning
+  and Analysis for XRD-based Identification) decouples phase
+  identification into independent, phase-specific one-versus-all binary
+  classifiers that each specialize in recognizing a single phase. These
+  pre-trained classifiers first narrow the search space to a small set of
+  plausible phases, which are then evaluated by automated Rietveld
+  refinement to identify the combination that best explains the full
+  diffraction pattern.

@@ -1,0 +1,89 @@
+#------------------------------------------------------------------------------
+#$Date: 2023-03-26 11:09:57 +0300 (Sun, 26 Mar 2023) $
+#$Revision: 282068 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/12/1011293.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1011293
+loop_
+_publ_author_name
+'Grime, H'
+'Santos, J A'
+_publ_section_title
+;
+The structure and colour of anhydrous cobalt chloride Co Cl2, at room
+and very low temperatures
+;
+_journal_coden_ASTM              ZEKGAX
+_journal_name_full
+;
+Zeitschrift fuer Kristallographie, Kristallgeometrie, Kristallphysik,
+Kristallchemie (-144,1977)
+;
+_journal_page_first              136
+_journal_page_last               141
+_journal_volume                  88
+_journal_year                    1934
+_chemical_formula_structural     'Co Cl2'
+_chemical_formula_sum            'Cl2 Co'
+_chemical_name_systematic        'Cobalt chloride'
+_space_group_IT_number           166
+_symmetry_cell_setting           trigonal
+_symmetry_space_group_name_Hall  '-P 3* 2'
+_symmetry_space_group_name_H-M   'R -3 m :R'
+_cell_angle_alpha                33.43
+_cell_angle_beta                 33.43
+_cell_angle_gamma                33.43
+_cell_formula_units_Z            1
+_cell_length_a                   6.16
+_cell_length_b                   6.16
+_cell_length_c                   6.16
+_cell_volume                     63.2
+_database_code_amcsd             0010531
+_exptl_crystal_density_diffrn    3.413
+_cod_original_sg_symbol_H-M      'R -3 m R'
+_cod_database_code               1011293
+_amcsd_formula_title             CoCl2
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+y,x,z
+y,z,x
+x,z,y
+z,x,y
+z,y,x
+-x,-y,-z
+-y,-x,-z
+-y,-z,-x
+-x,-z,-y
+-z,-x,-y
+-z,-y,-x
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Co1 Co2+ 1 a 0. 0. 0. 1. 0 d
+Cl1 Cl1- 2 c 0.25 0.25 0.25 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Co2+ 2.000
+Cl1- -1.000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0010531

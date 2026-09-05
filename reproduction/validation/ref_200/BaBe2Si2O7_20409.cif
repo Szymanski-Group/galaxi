@@ -1,0 +1,57 @@
+# generated using pymatgen
+data_BaBe2Si2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.62200000
+_cell_length_b   4.91250000
+_cell_length_c   4.66540000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaBe2Si2O7
+_chemical_formula_sum   'Ba2 Be4 Si4 O14'
+_cell_volume   266.36203210
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  Be2+  2.0
+  Si4+  4.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba1  1  0.00000000  0.79729000  0.00997000  1.0
+  Ba2+  Ba1  1  0.50000000  0.20271000  0.50997000  1.0
+  Be2+  Be1  1  0.12827000  0.32486000  0.48880000  1.0
+  Be2+  Be1  1  0.87173000  0.32486000  0.48880000  1.0
+  Be2+  Be1  1  0.37173000  0.67514000  0.98880000  1.0
+  Be2+  Be1  1  0.62827000  0.67514000  0.98880000  1.0
+  Si4+  Si1  1  0.25110000  0.83030000  0.50260000  1.0
+  Si4+  Si1  1  0.74890000  0.83030000  0.50260000  1.0
+  Si4+  Si1  1  0.24890000  0.16970000  0.00260000  1.0
+  Si4+  Si1  1  0.75110000  0.16970000  0.00260000  1.0
+  O2-  O1  1  0.13927000  0.64430000  0.55690000  1.0
+  O2-  O1  1  0.86073000  0.64430000  0.55690000  1.0
+  O2-  O1  1  0.36073000  0.35570000  0.05690000  1.0
+  O2-  O1  1  0.63927000  0.35570000  0.05690000  1.0
+  O2-  O2  1  0.27737000  0.86620000  0.15110000  1.0
+  O2-  O2  1  0.72263000  0.86620000  0.15110000  1.0
+  O2-  O2  1  0.22263000  0.13380000  0.65110000  1.0
+  O2-  O2  1  0.77737000  0.13380000  0.65110000  1.0
+  O2-  O3  1  0.00000000  0.22500000  0.60020000  1.0
+  O2-  O3  1  0.50000000  0.77500000  0.10020000  1.0
+  O2-  O4  1  0.13240000  0.26980000  0.14960000  1.0
+  O2-  O4  1  0.86760000  0.26980000  0.14960000  1.0
+  O2-  O4  1  0.36760000  0.73020000  0.64960000  1.0
+  O2-  O4  1  0.63240000  0.73020000  0.64960000  1.0

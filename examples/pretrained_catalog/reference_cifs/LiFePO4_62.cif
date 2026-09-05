@@ -1,0 +1,55 @@
+# Representative from cluster 1, source COD ID: 2100916 | Replaced duplicate COD IDs: 2018541, 1101111, 1529151, 4001845, 4001847, 4001849
+# generated using pymatgen
+data_LiFePO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.69200000
+_cell_length_b   6.01000000
+_cell_length_c   10.33200000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiFePO4
+_chemical_formula_sum   'Li4 Fe4 P4 O16'
+_cell_volume   291.35124144
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.02528000  0.75000000  0.71778000  1
+  Fe  Fe1  1  0.47472000  0.75000000  0.21778000  1
+  Fe  Fe2  1  0.52528000  0.25000000  0.78222000  1
+  Fe  Fe3  1  0.97472000  0.25000000  0.28222000  1
+  Li  Li4  1  0.00000000  0.00000000  0.00000000  1
+  Li  Li5  1  0.00000000  0.50000000  0.00000000  1
+  Li  Li6  1  0.50000000  0.00000000  0.50000000  1
+  Li  Li7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.20600000  0.25000000  0.45710000  1
+  O  O9  1  0.21520000  0.04646000  0.66558000  1
+  O  O10  1  0.21520000  0.45354000  0.66558000  1
+  O  O11  1  0.24280000  0.75000000  0.40322000  1
+  O  O12  1  0.25720000  0.75000000  0.90322000  1
+  O  O13  1  0.28480000  0.04646000  0.16558000  1
+  O  O14  1  0.28480000  0.45354000  0.16558000  1
+  O  O15  1  0.29400000  0.25000000  0.95710000  1
+  O  O16  1  0.70600000  0.75000000  0.04290000  1
+  O  O17  1  0.71520000  0.54646000  0.83442000  1
+  O  O18  1  0.71520000  0.95354000  0.83442000  1
+  O  O19  1  0.74280000  0.25000000  0.09678000  1
+  O  O20  1  0.75720000  0.25000000  0.59678000  1
+  O  O21  1  0.78480000  0.54646000  0.33442000  1
+  O  O22  1  0.78480000  0.95354000  0.33442000  1
+  O  O23  1  0.79400000  0.75000000  0.54290000  1
+  P  P24  1  0.08180000  0.25000000  0.59486000  1
+  P  P25  1  0.41820000  0.25000000  0.09486000  1
+  P  P26  1  0.58180000  0.75000000  0.90514000  1
+  P  P27  1  0.91820000  0.75000000  0.40514000  1

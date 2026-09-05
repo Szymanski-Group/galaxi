@@ -1,0 +1,51 @@
+# Single representative from COD ID: 1540872
+# generated using pymatgen
+data_LiP5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.54500000
+_cell_length_b   6.58400000
+_cell_length_c   10.43900000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiP5
+_chemical_formula_sum   'Li4 P20'
+_cell_volume   449.84031092
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.42100000  0.06900000  0.60300000  1.0
+  Li  Li1  1  0.42100000  0.43100000  0.10300000  1.0
+  Li  Li2  1  0.92100000  0.56900000  0.89700000  1.0
+  Li  Li3  1  0.92100000  0.93100000  0.39700000  1.0
+  P  P4  1  0.07700000  0.58600000  0.58500000  1.0
+  P  P5  1  0.07700000  0.91400000  0.08500000  1.0
+  P  P6  1  0.09600000  0.09970000  0.90720000  1.0
+  P  P7  1  0.09600000  0.40030000  0.40720000  1.0
+  P  P8  1  0.32200000  0.61040000  0.87080000  1.0
+  P  P9  1  0.32200000  0.88960000  0.37080000  1.0
+  P  P10  1  0.33700000  0.57860000  0.30630000  1.0
+  P  P11  1  0.33700000  0.92140000  0.80630000  1.0
+  P  P12  1  0.33800000  0.05580000  0.19110000  1.0
+  P  P13  1  0.33800000  0.44420000  0.69110000  1.0
+  P  P14  1  0.57700000  0.08600000  0.91500000  1.0
+  P  P15  1  0.57700000  0.41400000  0.41500000  1.0
+  P  P16  1  0.59600000  0.59970000  0.59280000  1.0
+  P  P17  1  0.59600000  0.90030000  0.09280000  1.0
+  P  P18  1  0.82200000  0.11040000  0.62920000  1.0
+  P  P19  1  0.82200000  0.38960000  0.12920000  1.0
+  P  P20  1  0.83700000  0.07860000  0.19370000  1.0
+  P  P21  1  0.83700000  0.42140000  0.69370000  1.0
+  P  P22  1  0.83800000  0.55580000  0.30890000  1.0
+  P  P23  1  0.83800000  0.94420000  0.80890000  1.0

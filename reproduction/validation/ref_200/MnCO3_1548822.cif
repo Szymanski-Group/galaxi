@@ -1,0 +1,167 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-01-08 17:08:34 +0200 (Wed, 08 Jan 2025) $
+#$Revision: 297227 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/88/1548822.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1548822
+loop_
+_publ_author_name
+'Zhao, Qing'
+'Kulik, Heather J.'
+_publ_section_title
+;
+ Where Does the Density Localize in the Solid State? Divergent Behavior
+ for Hybrids and DFT+U
+;
+_journal_coden_ASTM              JCTCCE
+_journal_issue                   2
+_journal_name_full               'Journal of Chemical Theory and Computation'
+_journal_page_first              670
+_journal_page_last               683
+_journal_paper_doi               10.1021/acs.jctc.7b01061
+_journal_volume                  14
+_journal_year                    2018
+_chemical_formula_structural     'Mn (C O3)'
+_chemical_formula_sum            'C Mn O3'
+_chemical_name_mineral           Rhodochrosite
+_chemical_name_structure_type    Calcite-CaCO3(hR10)
+_chemical_name_systematic        'Manganese carbonate'
+_space_group_IT_number           167
+_symmetry_Int_Tables_number      167
+_symmetry_space_group_name_Hall  '-R 3 2"c'
+_symmetry_space_group_name_H-M   'R -3 c :H'
+_audit_creation_date             1997-05-13
+_audit_update_record             1999-01-19
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                120.
+_cell_formula_units_Z            6
+_cell_length_a                   4.773(1)
+_cell_length_b                   4.773(1)
+_cell_length_c                   15.642(1)
+_cell_measurement_temperature    295.
+_cell_volume                     308.61(9)
+_database_code_amcsd             0009892
+_exptl_crystal_density_diffrn    3.71
+_refine_ls_R_factor_all          0.017
+_cod_data_source_file            MnCO3.cif
+_cod_data_source_block           80867-ICSD
+_cod_original_cell_volume        308.61
+_cod_original_sg_symbol_H-M      'R -3 c H'
+_cod_original_formula_sum        'C1 Mn1 O3'
+_cod_related_same_structure_entry_code 2101387
+_cod_database_code               1548822
+loop_
+_symmetry_equiv_pos_site_id
+_space_group_symop_operation_xyz
+1 'x-y, -y, -z+1/2'
+2 '-x, -x+y, -z+1/2'
+3 'y, x, -z+1/2'
+4 'x-y, x, -z'
+5 'y, -x+y, -z'
+6 '-x, -y, -z'
+7 '-x+y, y, z+1/2'
+8 'x, x-y, z+1/2'
+9 '-y, -x, z+1/2'
+10 '-x+y, -x, z'
+11 '-y, x-y, z'
+12 'x, y, z'
+13 'x-y+2/3, -y+1/3, -z+5/6'
+14 '-x+2/3, -x+y+1/3, -z+5/6'
+15 'y+2/3, x+1/3, -z+5/6'
+16 'x-y+2/3, x+1/3, -z+1/3'
+17 'y+2/3, -x+y+1/3, -z+1/3'
+18 '-x+2/3, -y+1/3, -z+1/3'
+19 '-x+y+2/3, y+1/3, z+5/6'
+20 'x+2/3, x-y+1/3, z+5/6'
+21 '-y+2/3, -x+1/3, z+5/6'
+22 '-x+y+2/3, -x+1/3, z+1/3'
+23 '-y+2/3, x-y+1/3, z+1/3'
+24 'x+2/3, y+1/3, z+1/3'
+25 'x-y+1/3, -y+2/3, -z+1/6'
+26 '-x+1/3, -x+y+2/3, -z+1/6'
+27 'y+1/3, x+2/3, -z+1/6'
+28 'x-y+1/3, x+2/3, -z+2/3'
+29 'y+1/3, -x+y+2/3, -z+2/3'
+30 '-x+1/3, -y+2/3, -z+2/3'
+31 '-x+y+1/3, y+2/3, z+1/6'
+32 'x+1/3, x-y+2/3, z+1/6'
+33 '-y+1/3, -x+2/3, z+1/6'
+34 '-x+y+1/3, -x+2/3, z+2/3'
+35 '-y+1/3, x-y+2/3, z+2/3'
+36 'x+1/3, y+2/3, z+2/3'
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Mn1 Mn2+ 0.00777(6) 0.00777(6) 0.00966(9) 0.00388(3) 0 0
+C1 C4+ 0.0064(2) 0.0064(2) 0.0074(4) 0.0032(1) 0 0
+O1 O2- 0.0068(2) 0.0103(2) 0.0123(3) 0.0052(1) -.0009(1) -.0018(2)
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+Mn1 Mn2+ 6 b 0 0 0 1. 0
+C1 C4+ 6 a 0 0 0.25 1. 0
+O1 O2- 18 e 0.2695(1) 0 0.25 1. 0
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mn2+ 2
+C4+ 4
+O2- -2
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+_citation_doi
+_citation_title
+_citation_coordinate_linkage
+primary 'Acta Crystallographica, Section B: Structural Science' 1995 51 929 939
+ASBSDK 10.1107/S0108768195006434
+;
+ Electron density and optical anisotropy in rhombohedral carbonates.
+ III. Synchrotron X-ray studies of CaCO3, MgCO3 and MnCO3
+;
+yes
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1 'Vaitkus, Antanas' 2025-01-08T15:17:04+02:00
+;
+ Updated bibliographic information. Added more details to the CITATION data
+ loop.
+;
+2 'Vaitkus, Antanas' 2025-01-08T17:05:50+02:00
+;
+ Marked entry as describing the same crystal as entry 2101387.
+;
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0009892

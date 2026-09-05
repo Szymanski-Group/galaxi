@@ -1,0 +1,77 @@
+#------------------------------------------------------------------------------
+#$Date: 2015-10-14 14:26:22 +0300 (Wed, 14 Oct 2015) $
+#$Revision: 168479 $
+#$URL: svn://www.crystallography.net/cod/cif/2/10/72/2107214.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2107214
+loop_
+_publ_author_name
+'van den Elzen, A.F.'
+'Rieck, G.D.'
+_publ_section_title
+;
+ The crystal structure of Bi2 (Mo O4)3
+;
+_journal_name_full               'Acta Crystallographica B (24,1968-38,1982)'
+_journal_page_first              2433
+_journal_page_last               2436
+_journal_volume                  29
+_journal_year                    1973
+_chemical_formula_sum            'Bi2 Mo3 O12'
+_chemical_name_systematic        'Bi2 (Mo O4)3'
+_space_group_IT_number           14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 115.4
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   7.685
+_cell_length_b                   11.491
+_cell_length_c                   11.929
+_cell_volume                     951.601
+_citation_journal_id_ASTM        ACBCAR
+_cod_data_source_file            vandenElzen_ACBCAR_1973_1372.cif
+_cod_data_source_block           Bi2Mo3O12
+_cod_original_cell_volume        951.6006
+_cod_database_code               2107214
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,y+1/2,-z+1/2
+-x,-y,-z
+x,-y-1/2,z-1/2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+O9 O-2 0.287 0.436 0.482 1 0.0
+O11 O-2 0.84 0.442 0.34 1 0.0
+Mo2 Mo+6 0.4218 0.1513 0.1089 1 0.0
+O8 O-2 0.507 0.316 0.198 1 0.0
+Bi2 Bi+3 0.90798 0.12976 0.08334 1 0.0
+Bi1 Bi+3 0.25999 0.36188 0.25584 1 0.0
+O12 O-2 0.692 0.468 0.084 1 0.0
+O10 O-2 0.128 0.448 0.082 1 0.0
+O6 O-2 0.62 0.205 0.072 1 0.0
+O4 O-2 0.864 0.208 0.412 1 0.0
+O1 O-2 0.544 0.052 0.224 1 0.0
+O7 O-2 0.951 0.291 0.197 1 0.0
+O5 O-2 0.224 0.199 0.435 1 0.0
+O2 O-2 0.936 0.054 0.256 1 0.0
+Mo3 Mo+6 0.7341 0.3669 0.1952 1 0.0
+Mo1 Mo+6 0.032 0.1114 0.4165 1 0.0
+O3 O-2 0.222 0.196 0.152 1 0.0

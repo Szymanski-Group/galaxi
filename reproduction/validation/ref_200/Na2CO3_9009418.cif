@@ -1,0 +1,79 @@
+#------------------------------------------------------------------------------
+#$Date: 2024-05-06 10:39:41 +0300 (Mon, 06 May 2024) $
+#$Revision: 291735 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/9/00/94/9009418.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided the American Mineralogist Crystal Structure Database,
+# http://rruff.geo.arizona.edu/AMS/amcsd.php
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_9009418
+loop_
+_publ_author_name
+'Zubkova, N. V.'
+'Pushcharovsky, D. Y.'
+'Ivaldi, G.'
+'Ferraris, G.'
+'Pekov, I. V.'
+'Chukanov, N. V.'
+_publ_section_title
+;
+ Crystal structure of natrite, gamma-Na2CO3
+;
+_journal_name_full               'Neues Jahrbuch fur Mineralogie, Monatshefte'
+_journal_page_first              85
+_journal_page_last               96
+_journal_volume                  2002
+_journal_year                    2002
+_chemical_compound_source
+'Mt Koashva, Khibiny alkaline massif, Kola Peninsula, Russia'
+_chemical_formula_sum            'C Na2 O3'
+_chemical_name_mineral           Natrite
+_space_group_IT_number           12
+_symmetry_space_group_name_Hall  '-C 2y'
+_symmetry_space_group_name_H-M   'C 1 2/m 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 101.32
+_cell_angle_gamma                90
+_cell_length_a                   8.905
+_cell_length_b                   5.237
+_cell_length_c                   6.045
+_cell_formula_units_Z            4
+_cell_volume                     276.427
+_database_code_amcsd             0014917
+_exptl_crystal_density_diffrn    2.547
+_cod_original_formula_sum        'Na2 C O3'
+_cod_database_code               9009418
+loop_
+_space_group_symop_operation_xyz
+x,y,z
+1/2+x,1/2+y,z
+x,-y,z
+1/2+x,1/2-y,z
+-x,y,-z
+1/2-x,1/2+y,-z
+-x,-y,-z
+1/2-x,1/2-y,-z
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+Na1 0.00000 0.00000 0.00000 0.02875
+Na2 0.00000 0.00000 0.50000 0.03116
+Na3 0.17047 0.50000 0.74780 0.04078
+C 0.16450 0.50000 0.24970 0.02343
+O1 0.10230 0.29440 0.28590 0.05801
+O2 0.28940 0.50000 0.17810 0.02292
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 AMCSD 0014917

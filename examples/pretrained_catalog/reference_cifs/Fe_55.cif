@@ -1,0 +1,35 @@
+# Representative from cluster 1, source COD ID: 4113930 | Replaced duplicate COD IDs: 4113933
+# generated using pymatgen
+data_Fe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.92050000
+_cell_length_b   8.00390000
+_cell_length_c   15.28240000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe
+_chemical_formula_sum   Fe8
+_cell_volume   479.55086073
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.50000000  0.23358500  0.62950000  1.0
+  Fe  Fe1  1  0.50000000  0.24440500  0.88250000  1.0
+  Fe  Fe2  1  0.50000000  0.25559500  0.38250000  1.0
+  Fe  Fe3  1  0.50000000  0.26641500  0.12950000  1.0
+  Fe  Fe4  1  0.50000000  0.73358500  0.87050000  1.0
+  Fe  Fe5  1  0.50000000  0.74440500  0.61750000  1.0
+  Fe  Fe6  1  0.50000000  0.75559500  0.11750000  1.0
+  Fe  Fe7  1  0.50000000  0.76641500  0.37050000  1.0

@@ -1,0 +1,55 @@
+# Single representative from COD ID: 9016918
+# generated using pymatgen
+data_Ti(FeO2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.65900000
+_cell_length_b   9.05900000
+_cell_length_c   9.16600000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti(FeO2)2
+_chemical_formula_sum   'Ti4 Fe8 O16'
+_cell_volume   220.78951725
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.09000000  0.13600000  1
+  Fe  Fe1  1  0.00000000  0.25000000  0.39200000  1
+  Fe  Fe2  1  0.00000000  0.41000000  0.13600000  1
+  Fe  Fe3  1  0.00000000  0.59000000  0.86400000  1
+  Fe  Fe4  1  0.00000000  0.75000000  0.60800000  1
+  Fe  Fe5  1  0.00000000  0.91000000  0.86400000  1
+  Fe  Fe6  1  0.50000000  0.25000000  0.89900000  1
+  Fe  Fe7  1  0.50000000  0.75000000  0.10100000  1
+  O  O8  1  0.00000000  0.00000000  0.50000000  1
+  O  O9  1  0.00000000  0.08200000  0.78300000  1
+  O  O10  1  0.00000000  0.25000000  0.05100000  1
+  O  O11  1  0.00000000  0.41800000  0.78300000  1
+  O  O12  1  0.00000000  0.50000000  0.50000000  1
+  O  O13  1  0.00000000  0.58200000  0.21700000  1
+  O  O14  1  0.00000000  0.75000000  0.94900000  1
+  O  O15  1  0.00000000  0.91800000  0.21700000  1
+  O  O16  1  0.50000000  0.00000000  0.00000000  1
+  O  O17  1  0.50000000  0.10000000  0.27200000  1
+  O  O18  1  0.50000000  0.25000000  0.56100000  1
+  O  O19  1  0.50000000  0.40000000  0.27200000  1
+  O  O20  1  0.50000000  0.50000000  0.00000000  1
+  O  O21  1  0.50000000  0.60000000  0.72800000  1
+  O  O22  1  0.50000000  0.75000000  0.43900000  1
+  O  O23  1  0.50000000  0.90000000  0.72800000  1
+  Ti  Ti24  1  0.50000000  0.05700000  0.61000000  1
+  Ti  Ti25  1  0.50000000  0.44300000  0.61000000  1
+  Ti  Ti26  1  0.50000000  0.55700000  0.39000000  1
+  Ti  Ti27  1  0.50000000  0.94300000  0.39000000  1

@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_Lu2Ni12P7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.02200000
+_cell_length_b   9.02200000
+_cell_length_c   3.64800000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu2Ni12P7
+_chemical_formula_sum   'Lu2 Ni12 P7'
+_cell_volume   257.15271082
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Lu0+  0.0
+  Ni0+  0.0
+  P0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu0+  Lu1  1  0.33333333  0.66666667  0.00000000  1.0
+  Lu0+  Lu2  1  0.66666667  0.33333333  0.50000000  1.0
+  Ni0+  Ni1  1  0.62600000  0.56600000  0.00000000  1.0
+  Ni0+  Ni1  1  0.94000000  0.37400000  0.00000000  1.0
+  Ni0+  Ni1  1  0.43400000  0.06000000  0.00000000  1.0
+  Ni0+  Ni2  1  0.12200000  0.84600000  0.00000000  1.0
+  Ni0+  Ni2  1  0.72400000  0.87800000  0.00000000  1.0
+  Ni0+  Ni2  1  0.15400000  0.27600000  0.00000000  1.0
+  Ni0+  Ni3  1  0.04900000  0.61700000  0.50000000  1.0
+  Ni0+  Ni3  1  0.56800000  0.95100000  0.50000000  1.0
+  Ni0+  Ni3  1  0.38300000  0.43200000  0.50000000  1.0
+  Ni0+  Ni4  1  0.87800000  0.78200000  0.50000000  1.0
+  Ni0+  Ni4  1  0.90400000  0.12200000  0.50000000  1.0
+  Ni0+  Ni4  1  0.21800000  0.09600000  0.50000000  1.0
+  P0+  P1  1  0.88300000  0.59100000  0.00000000  1.0
+  P0+  P1  1  0.70800000  0.11700000  0.00000000  1.0
+  P0+  P1  1  0.40900000  0.29200000  0.00000000  1.0
+  P0+  P2  1  0.29500000  0.88700000  0.50000000  1.0
+  P0+  P2  1  0.59200000  0.70500000  0.50000000  1.0
+  P0+  P2  1  0.11300000  0.40800000  0.50000000  1.0
+  P0+  P3  1  0.00000000  0.00000000  0.00000000  1.0

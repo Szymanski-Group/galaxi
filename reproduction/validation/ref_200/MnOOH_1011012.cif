@@ -1,0 +1,88 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-06-13 05:01:30 +0300 (Wed, 13 Jun 2018) $
+#$Revision: 208306 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/10/1011012.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1011012
+loop_
+_publ_author_name
+'Buerger, M J'
+_publ_section_title
+;
+The Symmetry and Crystal Structure of Manganite, Mn (O H) O
+;
+_journal_coden_ASTM              ZEKGAX
+_journal_name_full
+;
+Zeitschrift fuer Kristallographie, Kristallgeometrie, Kristallphysik,
+Kristallchemie (-144,1977)
+;
+_journal_page_first              163
+_journal_page_last               174
+_journal_volume                  95
+_journal_year                    1936
+_chemical_compound_source        'from Ilfeld, Harz Mts., Germany'
+_chemical_formula_structural     'Mn (O H) O'
+_chemical_formula_sum            'H Mn O2'
+_chemical_name_mineral           Manganite
+_chemical_name_systematic        'Manganese(III) hydroxide oxide'
+_space_group_crystal_system      monoclinic
+_space_group_IT_number           14
+_space_group_name_Hall           '-P 2ybc (x+1/2*z,y,1/2*z)'
+_space_group_name_H-M_alt        'B 1 21/d 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 90.(0)
+_cell_angle_gamma                90
+_cell_formula_units_Z            8
+_cell_length_a                   8.86
+_cell_length_b                   5.24
+_cell_length_c                   5.7
+_cell_volume                     264.6
+_exptl_crystal_density_meas      4.33
+_cod_depositor_comments
+;
+ Updating space group information.
+
+ 2018-06-13,
+ Antanas Vaitkus
+;
+_cod_database_code               1011012
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,-z
+3 1/4-x,1/2+y,1/4-z
+4 3/4+x,1/2-y,3/4+z
+5 1/2+x,y,1/2+z
+6 1/2-x,-y,1/2-z
+7 3/4-x,1/2+y,3/4-z
+8 1/4+x,1/2-y,1/4+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Mn1 Mn3+ 8 e 0. 0. 0.258 1. 0 d
+O1 O2- 8 e 0.119 0.122 0. 1. 0 d
+O2 O2- 8 e 0.119 0.122 0.5 1. 0 d
+H1 H1+ 8 ? -1. -1. -1. 1. 0 dum
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mn3+ 3.000
+O2- -2.000
+H1+ 1.000

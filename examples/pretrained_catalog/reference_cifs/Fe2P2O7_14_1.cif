@@ -1,0 +1,49 @@
+# Accepted individually as singleton after clustering; source COD ID: 4000291
+# generated using pymatgen
+data_Fe2P2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.46680000
+_cell_length_b   9.89610000
+_cell_length_c   5.20770000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   97.51600000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe2P2O7
+_chemical_formula_sum   'Fe4 P4 O14'
+_cell_volume   228.22284921
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.09695000  0.65662000  0.41594000  1.0
+  Fe  Fe1  1  0.09695000  0.84338000  0.91594000  1.0
+  Fe  Fe2  1  0.90305000  0.15662000  0.08406000  1.0
+  Fe  Fe3  1  0.90305000  0.34338000  0.58406000  1.0
+  O  O4  1  0.11950000  0.17940000  0.46290000  1.0
+  O  O5  1  0.11950000  0.32060000  0.96290000  1.0
+  O  O6  1  0.21290000  0.04110000  0.87190000  1.0
+  O  O7  1  0.21290000  0.45890000  0.37190000  1.0
+  O  O8  1  0.38160000  0.70360000  0.73790000  1.0
+  O  O9  1  0.38160000  0.79640000  0.23790000  1.0
+  O  O10  1  0.50000000  0.00000000  0.50000000  1.0
+  O  O11  1  0.50000000  0.50000000  0.00000000  1.0
+  O  O12  1  0.61840000  0.20360000  0.76210000  1.0
+  O  O13  1  0.61840000  0.29640000  0.26210000  1.0
+  O  O14  1  0.78710000  0.54110000  0.62810000  1.0
+  O  O15  1  0.78710000  0.95890000  0.12810000  1.0
+  O  O16  1  0.88050000  0.67940000  0.03710000  1.0
+  O  O17  1  0.88050000  0.82060000  0.53710000  1.0
+  P  P18  1  0.35840000  0.11106000  0.65700000  1.0
+  P  P19  1  0.35840000  0.38894000  0.15700000  1.0
+  P  P20  1  0.64160000  0.61106000  0.84300000  1.0
+  P  P21  1  0.64160000  0.88894000  0.34300000  1.0

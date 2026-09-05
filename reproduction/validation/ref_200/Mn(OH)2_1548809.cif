@@ -1,0 +1,119 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-01-08 15:19:01 +0200 (Wed, 08 Jan 2025) $
+#$Revision: 297224 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/54/88/1548809.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1548809
+loop_
+_publ_author_name
+'Zhao, Qing'
+'Kulik, Heather J.'
+_publ_section_title
+;
+ Where Does the Density Localize in the Solid State? Divergent Behavior
+ for Hybrids and DFT+U
+;
+_journal_coden_ASTM              JCTCCE
+_journal_issue                   2
+_journal_name_full               'Journal of Chemical Theory and Computation'
+_journal_page_first              670
+_journal_page_last               683
+_journal_paper_doi               10.1021/acs.jctc.7b01061
+_journal_volume                  14
+_journal_year                    2018
+_chemical_formula_structural     'Mn (O H)2'
+_chemical_formula_sum            'H2 Mn O2'
+_chemical_name_mineral           Pyrochroite
+_chemical_name_structure_type    Brucite-Mg(OH)2
+_chemical_name_systematic        'Manganese hydroxide'
+_space_group_IT_number           164
+_symmetry_Int_Tables_number      164
+_symmetry_space_group_name_Hall  '-P 3 2"'
+_symmetry_space_group_name_H-M   'P -3 m 1'
+_audit_creation_date             1980-01-01
+_audit_update_record             2007-08-01
+_cell_angle_alpha                90.
+_cell_angle_beta                 90.
+_cell_angle_gamma                120.
+_cell_formula_units_Z            1
+_cell_length_a                   3.25
+_cell_length_b                   3.25
+_cell_length_c                   4.48
+_cell_measurement_temperature    300.
+_cell_volume                     40.980
+_exptl_crystal_density_diffrn    3.26
+_refine_ls_R_factor_all          0.042
+_cod_data_source_file            Mn(OH)2.cif
+_cod_data_source_block           23591-ICSD
+_cod_original_cell_volume        45.24
+_cod_original_formula_sum        'H2 Mn1 O2'
+_cod_database_code               1548809
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 'x-y, -y, -z'
+2 '-x, -x+y, -z'
+3 'y, x, -z'
+4 'x-y, x, -z'
+5 'y, -x+y, -z'
+6 '-x, -y, -z'
+7 '-x+y, y, z'
+8 'x, x-y, z'
+9 '-y, -x, z'
+10 '-x+y, -x, z'
+11 '-y, x-y, z'
+12 'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+Mn1 Mn2+ 1 a 0 0 0 0.5 1. 0
+O1 O2- 2 d 0.3333 0.6667 0.226(4) 1.2 1. 0
+H1 H1+ 2 d 0.3333 0.6667 0.446(9) 2.4 1. 0
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Mn2+ 2
+O2- -2
+H1+ 1
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+_citation_doi
+_citation_title
+_citation_coordinate_linkage
+primary 'Solid State Communications' 1972 10 609 614 SSCOA4
+10.1016/0038-1098(72)90602-3
+;
+ Hydrothermal preparation and low temperature magnetic properties of Mn(OH)2
+;
+yes
+loop_
+_cod_changelog_entry_id
+_cod_changelog_entry_author
+_cod_changelog_entry_date
+_cod_changelog_entry_text
+1 'Vaitkus, Antanas' 2025-01-08T15:17:04+02:00
+;
+ Updated bibliographic information. Added more details to the CITATION data
+ loop.
+;

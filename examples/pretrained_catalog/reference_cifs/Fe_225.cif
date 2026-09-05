@@ -1,0 +1,31 @@
+# Representative from cluster 1, source COD ID: 9015445 | Replaced duplicate COD IDs: 1534888, 7204807, 9014056, 9014113, 9014231, 9014285, 9014287, 9014446, 9014454, 9014476, 9014540, 9014591, 9014605, 9014663, 9014711, 9014789, 9014851, 9015019, 9015071, 9015105, 9015154, 9015166, 9015258, 9015321, 9015330, 9015394, 9015406, 9015529, 9015687, 9015704, 9015727, 9015752, 9015774, 9015906, 9015936, 9015937, 9015972, 9016025, 9016094, 9016184, 9016262, 9016277, 9016291, 9016329, 9016334, 9016448, 9016456, 9016480, 9016506, 9016518, 9016587, 9016601, 9016635, 9016648
+# generated using pymatgen
+data_Fe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.55700000
+_cell_length_b   3.55700000
+_cell_length_c   3.55700000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Fe
+_chemical_formula_sum   Fe4
+_cell_volume   45.00404969
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.00000000  0.00000000  1
+  Fe  Fe1  1  0.00000000  0.50000000  0.50000000  1
+  Fe  Fe2  1  0.50000000  0.00000000  0.50000000  1
+  Fe  Fe3  1  0.50000000  0.50000000  0.00000000  1

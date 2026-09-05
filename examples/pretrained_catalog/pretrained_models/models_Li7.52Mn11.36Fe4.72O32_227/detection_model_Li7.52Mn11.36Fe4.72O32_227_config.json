@@ -1,0 +1,50 @@
+{
+  "smoothing_window_length": 21,
+  "snip_iter": 24,
+  "noise_sensitivity": 6.0,
+  "gate_sharpness": 6.0,
+  "magnification_power": 0.3,
+  "use_residual_block": false,
+  "use_mixing_block": false,
+  "conv_channels": [
+    16,
+    16,
+    16
+  ],
+  "conv_kernels": [
+    27,
+    15,
+    11
+  ],
+  "seblock_reduction": null,
+  "cbam_channel_reduction": null,
+  "cbam_spatial_kernel": null,
+  "dilation_size": [
+    1,
+    1,
+    1
+  ],
+  "pool_size": [
+    2,
+    2,
+    1
+  ],
+  "global_pool_type": null,
+  "fc_sizes": [
+    16
+  ],
+  "activation": "relu",
+  "use_batch_norm": true,
+  "dropout_rate": 0,
+  "optimizer": "rmsprop",
+  "num_epochs": 200,
+  "learning_rate": 0.001,
+  "batch_size": 32,
+  "early_stopping_patience": 5,
+  "swa_start_patience": null,
+  "input_size": 7001,
+  "target_phase": "Li7.52Mn11.36Fe4.72O32_227",
+  "use_mask": true,
+  "min_angle": 5.0,
+  "max_angle": 105.0
+}

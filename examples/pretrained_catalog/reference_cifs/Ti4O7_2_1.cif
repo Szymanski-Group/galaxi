@@ -1,0 +1,49 @@
+# Representative from cluster 1, source COD ID: 1528719 | Replaced duplicate COD IDs: 1008048, 1008049, 1008050
+# generated using pymatgen
+data_Ti4O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.59000000
+_cell_length_b   6.91069498
+_cell_length_c   7.12800000
+_cell_angle_alpha   64.11697603
+_cell_angle_beta   71.11000000
+_cell_angle_gamma   75.46211999
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti4O7
+_chemical_formula_sum   'Ti8 O14'
+_cell_volume   232.44112191
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.03880000  0.60560000  0.12810000  1.0
+  O  O1  1  0.10770000  0.96880000  0.15380000  1.0
+  O  O2  1  0.14620000  0.16000000  0.41670000  1.0
+  O  O3  1  0.29250000  0.55320000  0.43800000  1.0
+  O  O4  1  0.32330000  0.72100000  0.69950000  1.0
+  O  O5  1  0.41289000  0.11340000  0.73580000  1.0
+  O  O6  1  0.47200000  0.33180000  0.97660000  1.0
+  O  O7  1  0.52800000  0.66820000  0.02340000  1.0
+  O  O8  1  0.58711000  0.88660000  0.26420000  1.0
+  O  O9  1  0.67670000  0.27900000  0.30050000  1.0
+  O  O10  1  0.70750000  0.44680000  0.56200000  1.0
+  O  O11  1  0.85380000  0.84000000  0.58330000  1.0
+  O  O12  1  0.89230000  0.03120000  0.84620000  1.0
+  O  O13  1  0.96120000  0.39440000  0.87190000  1.0
+  Ti  Ti14  1  0.21720000  0.86808000  0.41106000  1.0
+  Ti  Ti15  1  0.21730000  0.87192000  0.90804000  1.0
+  Ti  Ti16  1  0.31250000  0.39976000  0.74262000  1.0
+  Ti  Ti17  1  0.31840000  0.40096000  0.24192000  1.0
+  Ti  Ti18  1  0.68160000  0.59904000  0.75808000  1.0
+  Ti  Ti19  1  0.68750000  0.60024000  0.25738000  1.0
+  Ti  Ti20  1  0.78270000  0.12808000  0.09196000  1.0
+  Ti  Ti21  1  0.78280000  0.13192000  0.58894000  1.0

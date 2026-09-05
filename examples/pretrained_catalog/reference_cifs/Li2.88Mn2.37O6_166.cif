@@ -1,0 +1,51 @@
+# Representative from cluster 2, source COD ID: 4001904 | Replaced duplicate COD IDs: 4001902
+# generated using pymatgen
+data_Li2.88Mn2.37O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.87560000
+_cell_length_b   2.87560000
+_cell_length_c   14.33200000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Li2.88Mn2.37O6
+_chemical_formula_sum   'Li2.88 Mn2.37 O6'
+_cell_volume   102.63473872
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Li+  1.0
+  Mn3.85+  3.85
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li+  Li0  1  0.00000000  0.00000000  0.09300000  0.09
+  Li+  Li1  1  0.00000000  0.00000000  0.90700000  0.09
+  Li+  Li2  1  0.33333333  0.66666667  0.16666667  0.78
+  Li+  Li3  1  0.33333333  0.66666667  0.57366667  0.09
+  Li+  Li4  1  0.33333333  0.66666667  0.75966667  0.09
+  Li+  Li5  1  0.66666667  0.33333333  0.83333333  0.78
+  Li+  Li6  1  0.66666667  0.33333333  0.24033333  0.09
+  Li+  Li7  1  0.66666667  0.33333333  0.42633333  0.09
+  Li+  Li8  1  1.00000000  1.00000000  0.50000000  0.78
+  Mn3.85+  Mn9  1  0.00000000  0.00000000  0.00000000  0.79
+  Mn3.85+  Mn10  1  0.33333333  0.66666667  0.66666667  0.79
+  Mn3.85+  Mn11  1  0.66666667  0.33333333  0.33333333  0.79
+  O2-  O12  1  0.00000000  0.00000000  0.26070000  1.0
+  O2-  O13  1  0.00000000  0.00000000  0.73930000  1.0
+  O2-  O14  1  0.33333333  0.66666667  0.40596667  1.0
+  O2-  O15  1  0.33333333  0.66666667  0.92736667  1.0
+  O2-  O16  1  0.66666667  0.33333333  0.07263333  1.0
+  O2-  O17  1  0.66666667  0.33333333  0.59403333  1.0

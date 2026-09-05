@@ -1,0 +1,83 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-10-31 18:24:25 +0200 (Fri, 31 Oct 2025) $
+#$Revision: 303120 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/01/00/1010004.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1010004
+loop_
+_publ_author_name
+'Sill\'en, Lars Gunnar'
+_publ_section_title
+;
+ Die Kristallstruktur des monoklinen \a-Bi~2~O~3~
+;
+_journal_coden_ASTM              NATWAY
+_journal_issue                   13
+_journal_name_full               Naturwissenschaften
+_journal_page_first              206
+_journal_page_last               207
+_journal_paper_doi               10.1007/BF01498757
+_journal_volume                  28
+_journal_year                    1940
+_chemical_formula_structural     'Bi2 O3'
+_chemical_formula_sum            'Bi2 O3'
+_chemical_name_mineral           Bismite
+_chemical_name_systematic        'Bismuth oxide - \a'
+_space_group_IT_number           14
+_symmetry_cell_setting           monoclinic
+_symmetry_Int_Tables_number      14
+_symmetry_space_group_name_Hall  '-P 2ybc'
+_symmetry_space_group_name_H-M   'P 1 21/c 1'
+_cell_angle_alpha                90
+_cell_angle_beta                 67.07
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.83
+_cell_length_b                   8.14
+_cell_length_c                   7.48
+_cell_volume                     326.9
+_cod_database_code               1010004
+loop_
+_symmetry_equiv_pos_as_xyz
+x,y,z
+-x,1/2+y,1/2-z
+-x,-y,-z
+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+Bi1 Bi3+ 4 e 0.520(5) 0.1875(5) 0.635(5) 1. 0 d
+Bi2 Bi3+ 4 e 0.040(5) 0.043(5) 0.225(5) 1. 0 d
+O1 O2- 4 e 0.615(5) 0.278(5) 0.316(5) 1. 0 d
+O2 O2- 4 e 0.631(5) 0.027(5) 0.113(5) 1. 0 d
+O3 O2- 4 e 0.024(5) 0.084(5) 0.460(5) 1. 0 d
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Bi3+ 3.000
+O2- -2.000
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 ChemSpider 141426
+2 AMCSD 0016940
+3 ROD 3500041
+4 ROD 3500111
+5 ROD 3500185
+6 ROD 3500221

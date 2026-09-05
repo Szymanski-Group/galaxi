@@ -1,0 +1,54 @@
+# generated using pymatgen
+data_Y2Ga5.422Cu2.218
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.10110000
+_cell_length_b   4.12150000
+_cell_length_c   10.20600000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Y2Ga5.422Cu2.218
+_chemical_formula_sum   'Y2 Ga5.422 Cu2.218'
+_cell_volume   172.50878933
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Y0+  0.0
+  Ga0+  0.0
+  Cu0+  0.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y0+  Y1  1  0.00000000  0.00000000  0.00000000  1.0
+  Y0+  Y1  1  0.50000000  0.50000000  0.50000000  1.0
+  Ga0+  Ga2  1  0.00000000  0.50000000  0.74990000  0.71
+  Cu0+  Ga2  1  0.00000000  0.50000000  0.74990000  0.29
+  Ga0+  Ga2  1  0.00000000  0.50000000  0.25010000  0.71
+  Cu0+  Ga2  1  0.00000000  0.50000000  0.25010000  0.29
+  Ga0+  Ga2  1  0.50000000  0.00000000  0.24990000  0.71
+  Cu0+  Ga2  1  0.50000000  0.00000000  0.24990000  0.29
+  Ga0+  Ga2  1  0.50000000  0.00000000  0.75010000  0.71
+  Cu0+  Ga2  1  0.50000000  0.00000000  0.75010000  0.29
+  Ga0+  Ga3  1  0.50000000  0.50000000  0.00000000  0.227
+  Cu0+  Ga3  1  0.50000000  0.50000000  0.00000000  0.093
+  Ga0+  Ga3  1  0.00000000  0.00000000  0.50000000  0.227
+  Cu0+  Ga3  1  0.00000000  0.00000000  0.50000000  0.093
+  Ga0+  Ga1  1  0.00000000  0.00000000  0.61880000  0.532
+  Cu0+  Ga1  1  0.00000000  0.00000000  0.61880000  0.218
+  Ga0+  Ga1  1  0.00000000  0.00000000  0.38120000  0.532
+  Cu0+  Ga1  1  0.00000000  0.00000000  0.38120000  0.218
+  Ga0+  Ga1  1  0.50000000  0.50000000  0.11880000  0.532
+  Cu0+  Ga1  1  0.50000000  0.50000000  0.11880000  0.218
+  Ga0+  Ga1  1  0.50000000  0.50000000  0.88120000  0.532
+  Cu0+  Ga1  1  0.50000000  0.50000000  0.88120000  0.218

@@ -1,0 +1,89 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "galaxi"
+version = "0.1.0"
+description = "General Automated Learning and Analysis for X-ray diffraction Identification"
+readme = "README.md"
+authors = [
+    {name = "Nathan Szymanski", email = "nszymanski@seas.ucla.edu"},
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+keywords = ["xrd", "crystallography", "materials-science", "deep-learning", "machine-learning"]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20.0",
+    "matplotlib>=3.4.0",
+    "torch>=1.9.0",
+    "scipy>=1.7.0",
+    "pymatgen>=2022.0.0",
+    "scikit-learn>=1.0.0",
+    "scikit-image>=0.18.0",
+    "pyxtal>=0.5.0",
+    "gdown>=4.0.0",
+    "tqdm>=4.0.0",
+    "pathlib2>=2.3.0; python_version<'3.4'",
+    "seaborn",
+    "adabelief-pytorch",
+    "zarr",
+    "pandas",
+    "plotly",
+    "h5py",
+    # DARA is pinned to a fork rather than the upstream release: GALAXI's
+    # DaraConfig uses the "gaussian_cosine" phase-grouping metric, which this
+    # fork provides. The pin is exact so refinement results stay reproducible.
+    # Note the distribution is named "dara-xrd" while the import is "dara".
+    "dara-xrd @ git+https://github.com/cuzno200161/dara.git@e95eace9a6e90bc17c491f2b1b1a4404906d4027",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=22.0",
+    "isort>=5.0",
+    "flake8>=4.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Szymanski-Group/galaxi"
+"Bug Tracker" = "https://github.com/Szymanski-Group/galaxi/issues"
+"Source Code" = "https://github.com/Szymanski-Group/galaxi"
+
+[project.scripts]
+galaxi-workflow = "galaxi.workflows.streamlined_workflow:main"
+galaxi-generate-test = "galaxi.scripts.generate_test_patterns:main"
+galaxi-setup-cod = "galaxi.scripts.setup_cod:main"
+galaxi-setup-bg-profiles = "galaxi.scripts.setup_bg_profiles:main"
+galaxi-query-cod = "galaxi.scripts.query_cod:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ["py38"]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.pytest]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
