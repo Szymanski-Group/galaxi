@@ -23,14 +23,27 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Chemistry",
 ]
 keywords = ["xrd", "crystallography", "materials-science", "deep-learning", "machine-learning"]
-requires-python = ">=3.8"
+requires-python = ">=3.10"
+# Exact environment used for every result reported in the manuscript
+# (recorded by Weights & Biases at training time, May-June 2026):
+#   Python 3.10.20
+#   torch 2.12.0.dev20260407+cu128      pymatgen 2025.10.7
+#   numpy 2.2.6                         scipy 1.15.3
+#   scikit-learn 1.7.2                  pandas 2.3.3
+#   h5py 3.16.0                         ray 2.55.1
+#   dara-xrd 1.1.4 (pinned to a commit below)
+# Baseline models were run separately under TensorFlow 2.21.0 with Keras 3.12.3.
+# GPU: NVIDIA RTX PRO 6000 Blackwell Max-Q.
 dependencies = [
-    "numpy>=1.20.0",
-    "matplotlib>=3.4.0",
-    "torch>=1.9.0",
-    "scipy>=1.7.0",
-    "pymatgen>=2022.0.0",
-    "scikit-learn>=1.0.0",
+    "numpy==2.2.6",
+    "matplotlib==3.10.9",
+    # Results in the manuscript were produced with the CUDA 12.8 nightly
+    # torch 2.12.0.dev20260407+cu128 recorded in the block above. That build
+    # is not resolvable from PyPI by version alone, so the floor is left open.
+    "torch>=2.0",
+    "scipy==1.15.3",
+    "pymatgen==2025.10.7",
+    "scikit-learn==1.7.2",
     "scikit-image>=0.18.0",
     "pyxtal>=0.5.0",
     "gdown>=4.0.0",
@@ -39,9 +52,9 @@ dependencies = [
     "seaborn",
     "adabelief-pytorch",
     "zarr",
-    "pandas",
+    "pandas==2.3.3",
     "plotly",
-    "h5py",
+    "h5py==3.16.0",
     # DARA is pinned to a fork rather than the upstream release: GALAXI's
     # DaraConfig uses the "gaussian_cosine" phase-grouping metric, which this
     # fork provides. The pin is exact so refinement results stay reproducible.
