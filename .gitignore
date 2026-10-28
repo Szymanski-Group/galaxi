@@ -166,6 +166,9 @@ reproduction/upstream/
 # thing standing between a fresh clone and reproducing the texture result, so
 # it is not worth a separate hosted download.
 !reproduction/texture_model/detection_model_MoO3_62.pth
+# The Li4Ti5O12 catalog entry was added after the 365-model weights tarball was
+# deposited on figshare, so its single ~1.8MB checkpoint is committed directly too.
+!examples/pretrained_catalog/pretrained_models/models_Li4Ti5O12_227/detection_model_Li4Ti5O12_227.pth
 
 # Output from running the reproduction/run_*.py scripts
 reproduction_*_out/
