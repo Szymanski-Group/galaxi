@@ -1,8 +1,7 @@
 # Pretrained Catalog Example
 
-A worked example chemical space (365 reference phases, plus the Li4Ti5O12 entry added later, see below) for trying
-GALAXI's evaluation and DARA-refinement workflows without first running the query → generate → train pipeline
-yourself.
+A worked example chemical space (365 reference phases) for trying GALAXI's evaluation and DARA-refinement workflows
+without first running the query → generate → train pipeline yourself.
 
 ## Layout
 
@@ -34,22 +33,6 @@ The `.pth` weight files under `pretrained_models/` are excluded from git (see `.
 individual files is too many for a single figshare upload, and ~640MB total is more than should live in git history.
 Everything else (configs, training history, classification reports, peak lists) is tracked normally so the folder
 structure and metadata are browsable directly on GitHub.
-
-## The Li4Ti5O12 entry
-
-`reference_cifs/Li4Ti5O12_227.cif` (COD 1001098, Li1.333Ti1.667O4, Fd-3m, a = 8.357 Å) and
-`pretrained_models/models_Li4Ti5O12_227/` were added after the rest of the catalog. The ten pristine patterns
-measured on commercial lithium titanate are this phase; they were previously named after Li4Ti7O16, the closest
-spinel already in the catalog. Refining the single-phase pattern against each gives Rwp 34.50% for Li4Ti5O12 and
-41.87% for Li4Ti7O16.
-
-Both titanates are kept, so this directory now holds 366 references and 366 models. The 365-phase catalog used in
-the manuscript is this set without `Li4Ti5O12_227`. The two structures have a calculated-profile similarity of
-0.983, above the 0.90 threshold used to group XRD-indistinguishable phases for scoring, so they are scored as one
-group either way.
-
-Because this entry postdates the figshare deposit, its weights are not in `pretrained_model_weights.tar.gz`; the
-single ~1.8MB checkpoint is committed directly instead, as the MoO3 texture model is.
 
 The weights themselves are bundled into one tarball, `pretrained_model_weights.tar.gz`, hosted on figshare
 (https://doi.org/10.6084/m9.figshare.33360183). They are only fetched when a user actually needs to run inference,
