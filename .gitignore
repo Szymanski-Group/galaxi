@@ -166,6 +166,7 @@ reproduction/upstream/
 # thing standing between a fresh clone and reproducing the texture result, so
 # it is not worth a separate hosted download.
 !reproduction/texture_model/detection_model_MoO3_62.pth
+!examples/pretrained_catalog/pretrained_models/models_Li4Ti5O12_227/detection_model_Li4Ti5O12_227.pth
 
 # Output from running the reproduction/run_*.py scripts
 reproduction_*_out/
