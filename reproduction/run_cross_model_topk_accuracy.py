@@ -64,7 +64,13 @@ def true_phases_for_pattern(pattern_results: dict) -> list:
 
     NOTE the expansion is a property of the evaluation run that produced the
     file, not of this script: an evaluation produced before the October 2026
-    phase-grouping fix carries coarser groups and will score lower here.
+    phase-grouping fix carries different groups and scores differently here.
+    A fresh CNN-only run over the 61 pristine patterns against the 365-phase
+    catalog reproduces the published 0.6721 at k=10 and 0.8197 at k=15 exactly;
+    the k=3-5 points of the curve sit 1-3 points lower than the published ones,
+    because that fix changed which catalog entries are judged
+    XRD-indistinguishable (hematite went from a singleton to a group of four,
+    LiMn2O4 from six members to three).
     """
     metrics = pattern_results.get("phase_metrics") or {}
     true_formulas = metrics.get("true_formulas")
