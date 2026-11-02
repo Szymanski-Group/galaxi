@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Reproduce Figure 3a: top-k accuracy for GALAXI vs. the four baselines on
 the pristine 61-pattern test set. A prediction is counted correct at a
-given k if every true phase in the pattern appears among that model's top-k
-ranked candidates -- after first collapsing top-k names into structural
+given k if every true phase group in the pattern appears among that model's
+top-k ranked candidates -- after first collapsing top-k names into structural
 groups via peak-profile similarity (the same catalog GALAXI's own CNN
 screening and DARA's internal grouping use), since the 365-phase catalog
 contains genuine XRD-indistinguishable near-duplicates (different formulas,
@@ -45,6 +45,38 @@ def clean_name(x: str) -> str:
     return parts[0]
 
 
+def true_phases_for_pattern(pattern_results: dict) -> list:
+    """Ground truth for one pattern, as the manuscript scores it.
+
+    phase_metrics["true_formulas"] expands each labelled phase into the group
+    of catalog entries that are XRD-indistinguishable from it, and that is the
+    ground truth the published Figure 3a uses -- the manuscript's sweep reads
+    the same expansion out of experimental_evaluation_summary.csv's "True
+    phases" column. Scoring the bare phases_in_pattern label instead is more
+    permissive, because a pattern then counts as a hit as soon as any one
+    member of the group is retrieved: on the 61-pattern pristine set that
+    reads 70.5% at k=10 and 83.6% at k=15, against the published 67.2% and
+    82.0%. The whole difference sits on the twelve LiMn2O4-bearing patterns,
+    whose group holds several lithium-manganese spinels.
+
+    Falls back to phases_in_pattern for evaluation outputs that predate
+    phase_metrics.
+
+    NOTE the expansion is a property of the evaluation run that produced the
+    file, not of this script: an evaluation produced before the October 2026
+    phase-grouping fix carries coarser groups and will score lower here.
+    """
+    metrics = pattern_results.get("phase_metrics") or {}
+    true_formulas = metrics.get("true_formulas")
+    if not true_formulas:
+        return [clean_name(x) for x in pattern_results["phases_in_pattern"]]
+    return [
+        clean_name(member)
+        for group in true_formulas
+        for member in (group if isinstance(group, list) else [group])
+    ]
+
+
 def load_galaxi_scores(eval_dir: Path):
     with open(Path(eval_dir) / "experimental_evaluation.json") as f:
         exp_results = json.load(f)
@@ -53,11 +85,7 @@ def load_galaxi_scores(eval_dir: Path):
     for pattern_key, pattern_results in exp_results.items():
         filename = pattern_results.get("filename", pattern_key)
         scores_by_pattern[filename] = pattern_results["probabilities"]
-        # Ground truth is the plain, un-grouped composition (phases_in_pattern).
-        # phase_metrics["true_formulas"] is not used here, since it already
-        # expands each true phase into its full catalog similarity-group;
-        # grouping is applied once, below, on the predicted side.
-        true_phases_by_pattern[filename] = [clean_name(x) for x in pattern_results["phases_in_pattern"]]
+        true_phases_by_pattern[filename] = true_phases_for_pattern(pattern_results)
     return scores_by_pattern, true_phases_by_pattern
 
 
